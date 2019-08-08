@@ -1,0 +1,57 @@
+/* Shooting Star */
+
+@keyframes animationShootingStar {
+    0% {
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        box-shadow: 1px -1px 4px #fff;
+        padding: 0.5px;
+
+    }
+
+     25% {
+        position: absolute;
+        top: 20%;
+        right: 50%;
+        box-shadow: 1px -1px 8px #fff;
+        padding: 0.8px;
+
+    }
+
+    100% {
+        position: absolute;
+        top: 40%;
+        right: 100%;
+        box-shadow: 1px -1px 15px #fff;
+        padding: 1px;
+
+    }
+}
+
+/* Starry Sky */
+
+@keyframes animationStarLightingSmall {
+    0% {
+        box-shadow: 1px -1px 4px #fff;
+        padding: 0.5px;
+    }
+
+    100% {
+        box-shadow: 1px -1px 15px #fff;
+        padding: 0.5px;
+    }
+}
+
+@keyframes animationStarLightingMedium {
+    0% {
+        box-shadow: 1px -1px 4px #fff;
+        padding: 0.8px;
+    }
+
+    100% {
+        box-shadow: 1px -1px 20px #fff;
+        padding: 0.8px;
+    }
+}
+
